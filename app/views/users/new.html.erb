@@ -1,3 +1,15 @@
+<h1>Create a new User</h1>
+
+<%= form_for @user do |f| %>
+  <%= f.label :username, "Enter your username" %>
+  <%= f.text_field :username %>
+  <%= f.label :email, "Enter your email" %>
+  <%= f.email_field :email %>
+  <%= f.label :password, "Enter your password" %>
+  <%= f.password_field :password %>
+  <%= f.submit 'Create' %>
+<% end %>
+
 <!--
 <h1>Create a New User</h1>
 
@@ -14,6 +26,7 @@
 </form>
 -->
 
+<!--
 <%= form_tag('/users') do%>
 
   <%= label_tag 'Username' %>
@@ -31,3 +44,4 @@
   <%= submit_tag "Create" %>
 
 <%end%>
+-->
