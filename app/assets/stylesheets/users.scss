@@ -2,17 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F9B33E;
+  background-color: #f9b33e;
   font-family: sans-serif;
 }
 
@@ -23,6 +22,7 @@ body {
   padding: 30px;
   border-radius: 5%;
   background-color: beige;
+
   h1 {
     font-weight: bold;
   }
@@ -30,8 +30,10 @@ body {
   ul {
     list-style: none;
     padding: 10px 0;
+
     li {
       font-size: 22px;
+
       a {
         text-decoration: none;
         color: purple;
@@ -46,7 +48,6 @@ body {
     background-color: #123;
     border: 1px solid #123;
     padding: 10px 5px;
-    border: 1px solid #123;
     color: white;
     border-radius: 3px;
     margin-top: 10px;
