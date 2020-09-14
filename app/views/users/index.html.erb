@@ -1,11 +1,11 @@
-<h1>Rails Users</h1>
+<h1>Programming Blog</h1>
 
+<ul>
 <% @users.each do |user| %>
-  <ul>
-    <li>
-      <%= link_to user.username, user_path(user) %>
-    </li>
-  </ul>
+  <li>
+    <%= link_to user.username, user_path(user) %>
+  </li>
 <% end %>
+</ul>
 
-<%= link_to "Create a New User", new_user_path %>
+<%= link_to "Create a New User", new_user_path, class: "btn-home" %>

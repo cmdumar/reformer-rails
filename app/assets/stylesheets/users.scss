@@ -13,17 +13,43 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #F9B33E;
+  font-family: sans-serif;
 }
 
 .main-container {
   position: absolute;
-  height: 50rem;
-  width: 60rem;
   top: 50%;
-  transform: translateY(-50%); 
+  transform: translateY(-50%);
+  padding: 30px;
   border-radius: 5%;
   background-color: beige;
-}
+  h1 {
+    font-weight: bold;
+  }
 
-li {
+  ul {
+    list-style: none;
+    padding: 10px 0;
+    li {
+      font-size: 22px;
+      a {
+        text-decoration: none;
+        color: purple;
+        text-transform: capitalize;
+        padding: 5px 0;
+        display: inline-block;
+      }
+    }
+  }
+
+  .btn-home {
+    background-color: #123;
+    border: 1px solid #123;
+    padding: 10px 5px;
+    border: 1px solid #123;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+  }
 }
