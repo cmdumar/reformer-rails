@@ -9,3 +9,7 @@
   <%= f.password_field :password %>
   <%= f.submit 'Create' %>
 <% end %>
+
+<p class = "error-msg">
+<%= @user.errors.full_messages.first if @user.errors.any? %>
+</p>

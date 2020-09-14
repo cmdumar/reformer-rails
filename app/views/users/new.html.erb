@@ -9,6 +9,7 @@
   <%= f.password_field :password %>
   <%= f.submit 'Create' %>
 <% end %>
+<%= @user.errors.full_messages.first if @user.errors.any? %>
 
 <%= link_to "Go to Home", users_path, class: "btn-home" %>
 
