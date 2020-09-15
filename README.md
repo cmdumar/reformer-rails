@@ -2,6 +2,23 @@
 
 > A forms project with CRUD features.
 
+## Prerequisites to Run the App Locally
+
+Install these following tools in your machine:
+
+* Ruby
+* Ruby on Rails
+
+Note: Go to [Install Rails website](http://installrails.com/) if you don't have these installed.
+
+## Instructions to Run the App Locally
+
+1. Clone the repository using `git clone https://github.com/mohammadumar28/reformer-rails.git`
+2. Switch to the reformer branch using `git checkout reformer`
+3. Run `bundle install` to install all the gems.
+4. Run `rake db:migrate` to migrate the database.
+5. Run `rails server` to start the application.
+
 ## Tools/Languages Used
 
 * Ruby on Rails
