@@ -1,0 +1,65 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9b33e;
+  font-family: sans-serif;
+}
+
+.main-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 30px;
+  border-radius: 5%;
+  background-color: beige;
+
+  h1 {
+    font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+    padding: 10px 0;
+
+    li {
+      font-size: 22px;
+
+      a {
+        text-decoration: none;
+        color: purple;
+        text-transform: capitalize;
+        padding: 5px 0;
+        display: inline-block;
+      }
+    }
+  }
+
+  .btn-home {
+    background-color: #123;
+    border: 1px solid #123;
+    padding: 10px 5px;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+.error-msg {
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 1rem;
+}
